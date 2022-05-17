@@ -1,6 +1,6 @@
 package fr.rpg.pnj;
 
-public class Personnage extends Combattant {
+public class Personnage extends AbstractCombattant {
 
 
     private Classe classe;

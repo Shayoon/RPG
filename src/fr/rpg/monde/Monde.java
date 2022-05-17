@@ -73,8 +73,8 @@ public class Monde {
     }
 
     public static String genererNom() {
-        String[] debutNom = {"Chat", "Chien", "Khajit", "Orc", "Elfe", "Fee", "Rampant", "Degueux"};
-        String[] finNom = {" qui pue", " Mechant", " de la mort", " disciple de Cthulhu", " des montagnes", " vraiment vilain"};
+        String[] debutNom = {"Chat", "Chien", "Khajit", "Orc", "Elfe", "Fee", "Rampant", "Degueux", "Moufette", "Chouquette"};
+        String[] finNom = {" qui pue", " Mechant", " de la mort", " disciple de Cthulhu", " des montagnes", " vraiment vilain", " qui prend son cul pour une trompette"};
         String nom = "";
         Random random = new Random();
         nom += debutNom[random.nextInt(debutNom.length)];

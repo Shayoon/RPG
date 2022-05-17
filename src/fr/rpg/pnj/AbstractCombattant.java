@@ -1,12 +1,12 @@
 package fr.rpg.pnj;
 
-public abstract class Combattant  implements fr.rpg.interfaces.Combattant {
+public abstract class AbstractCombattant implements fr.rpg.interfaces.Combattant {
 
     private int pointDeVie;
     private int degats;
     private String nom;
 
-    public Combattant(int pointDeVie, int degats, String nom) {
+    public AbstractCombattant(int pointDeVie, int degats, String nom) {
         this.pointDeVie = pointDeVie;
         this.degats = degats;
         this.nom = nom;

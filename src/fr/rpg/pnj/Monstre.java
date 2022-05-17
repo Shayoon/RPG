@@ -2,7 +2,7 @@ package fr.rpg.pnj;
 
 import java.util.Random;
 
-public class Monstre extends Combattant {
+public class Monstre extends AbstractCombattant {
 
     public Monstre(int pointDeVie, int degats, String nom) {
         super(pointDeVie, degats, nom);
